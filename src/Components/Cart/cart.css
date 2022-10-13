@@ -1,0 +1,48 @@
+.cart-container{
+    width: 70vw;
+    height: 30vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    /* flex-direction: row; */
+    font-family: "Ubuntu";
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 9px 8px 16px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 8px 16px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 8px 16px -7px rgba(0,0,0,0.75);
+}
+.cart :hover{
+    transform: scale(1.01); 
+    transition: 0.5s ease-in-out;
+}
+.image:hover{
+    transform: scale(1.01); 
+    transition: 0.5s ease-in-out;   
+}
+
+.image{
+    width: 21vw;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+.details{
+   margin: 10px;
+    color: gray;
+    font-size: large;
+}
+.detail-Item{
+    display: flex;
+    flex-direction: row;
+    margin-left: -18px;
+}
+.address{
+    font-size: 20px;
+}
+.map{
+    /* margin-left: 00px; */
+    height: 230px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}

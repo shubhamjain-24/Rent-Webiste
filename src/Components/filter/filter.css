@@ -1,0 +1,120 @@
+.filter{
+    background-color: blue;
+    height: 70vh;
+    /* width: 100vw; */
+    margin-top: -96px;
+  }
+  .filter-img{
+    height: 70vh;
+    /* width: 100vw; */
+    z-index: -1;
+  }
+  .filter-img img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .shadow{
+    height: 127.1vh;
+    width: 98.9vw;
+    background-color: rgba(3, 120, 187, 0.525);
+    margin-top: -60%;
+    position: absolute;
+    z-index: 1;
+  }
+  .container{
+    height: 14vh;
+    width: 60vw;
+    border-radius: 20px;
+    background-color: rgba(255, 254, 254, 0.927);
+    border: 0.5px solid rgb(181, 181, 241);
+    margin-top: -270px;
+    position: absolute;
+    margin-left: 320px;
+    z-index: 100;
+  
+  }
+  .but{
+    background-color: transparent;
+    /* border: 1px solid rgb(0, 0, 0);
+     */
+     border: transparent;
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-bottom: 2px solid rgb(235, 238, 243);
+  
+  }
+  .but-container{
+    margin-left: 146px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+  }
+  .but:hover{
+    border-bottom: 2px solid rgb(0, 123, 255);
+    /* color: white; */
+  }
+  .sec-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 15px;
+  }
+  #search{
+    width: 30vw;
+    height: 5vh;
+    margin-left: 180px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px 0px 0px 10px;
+  }
+   #search::placeholder{
+    padding-left: 10px;
+   }
+  .search-btn{
+    height: 5vh;
+    border: transparent;
+    background-color: rgb(23, 117, 217);
+    color: white;
+    width: 7vw;
+    /* margin-right: 100px; */
+    border-radius: 0px 10px 10px 0px;
+  }
+  .search-btn:hover{
+  border: 1.5px solid black;
+  }
+  #location,#BHK,#type,#price,#buy{
+    margin-left: 38px;
+    height: 5vh;
+    width: 8vw;
+    margin: 20px;
+    border-radius: 6px;
+    position: absolute;
+    border: none;
+  }
+  #BHK{
+    margin-left: 180px;
+  }
+  #type{
+    margin-left: 340px;
+  
+  }
+  #price{
+    margin-left: 500px;
+  }
+  #buy{
+    
+    margin-left:658px ;
+    background-color: rgba(90, 170, 255, 0.463);
+  }
+  .value{
+    background-color: rgb(248, 244, 244);
+  }
+  .cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
